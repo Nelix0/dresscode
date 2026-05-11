@@ -31,7 +31,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">О компании</a>
+                        <a href="{{route('about')}}" class="nav-link text-white">О компании</a>
                     </li>
 
                     <li class="nav-item">

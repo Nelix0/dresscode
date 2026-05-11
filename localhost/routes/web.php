@@ -20,3 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\WebController::class, 'index'])->name('index');
+Route::get('/about', [App\Http\Controllers\WebController::class, 'about'])->name('about');
+
