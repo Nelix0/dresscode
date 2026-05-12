@@ -22,3 +22,11 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\WebController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\WebController::class, 'about'])->name('about');
 
+Route::get('/feedbacks', [App\Http\Controllers\WebController::class, 'feedbacks'])->name('feedbacks');
+Route::post('/feedbacks', [App\Http\Controllers\WebController::class, 'feedback_form'])->name('feedback_form');
+
+Route::get('/account', [App\Http\Controllers\WebController::class, 'account'])->name('account');
+
+
+
+

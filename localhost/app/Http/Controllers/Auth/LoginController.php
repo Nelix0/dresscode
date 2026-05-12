@@ -37,4 +37,11 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    public function authenticated(Request $request, $user){
+        if ($user->role_id === 1){
+            return redirect('/admin/films');
+        }
+        return redirect('/');
+    }
 }

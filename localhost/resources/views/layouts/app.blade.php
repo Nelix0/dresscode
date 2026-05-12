@@ -47,11 +47,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Отзывы</a>
+                        <a href="{{route('feedbacks')}}" class="nav-link text-white">Отзывы</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Личный кабинет</a>
+                        <a href="{{route('register')}}" class="nav-link text-white">Личный кабинет</a>
                     </li>
 
                     <li class="nav-item">
